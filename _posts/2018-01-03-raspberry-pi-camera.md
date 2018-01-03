@@ -58,8 +58,6 @@ and a .mkv movie generated in /tmp/motion.
 
 I'm currently retrieving these manually via scp.
 
-![ollie]({{ site.path }}/assets/cat.jpg)
+![ollie]({{ site.path }}/assets/04-20180103225829-03.jpg)
 
-<video width="100%">
-    <source src="/assets/cat.mkv" type="video/mkv">
-</video>
+<div style="position:relative;height:0;padding-bottom:75.0%"><iframe src="https://www.youtube.com/embed/s2EhVAsBjk0?ecver=2" width="480" height="360" frameborder="0" gesture="media" allow="encrypted-media" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe></div>
