@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "title"
+title: "Raspberry Pi - Camera and Motion"
 ---
 
 <!---
