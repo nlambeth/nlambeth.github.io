@@ -26,9 +26,7 @@ I've had this Pi sitting around for awhile; a few weeks ago I wiped the SD card 
 
 1. Forget your login information for the Pi. Spend awhile trying to guess it, then pull the SD card and start searching the house for a microSD adapter. Realize you wrote yourself a note when you set up Stretch in November (thanks Evernote). Successfully ssh into the Pi.
 2. Set up a static IP address:
-    * Set via ifconfig: 
-    
-    `pi@raspberrypi:~ $ ifconfig wlan0 10.0.1.101 netmask 255.255.255.0 up`
+    * Set via ifconfig: `ifconfig wlan0 10.0.1.101 netmask 255.255.255.0 up`
 
 3. Reconnect to the pi. Do apt-get update, apt-get upgrade because who knows who long it's been.
     * Many downloads failed due to "101: Network is unreachable" errors to several mirrors. Let's cross our fingers.
