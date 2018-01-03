@@ -60,4 +60,6 @@ I'm currently retrieving these manually via scp.
 
 ![ollie]({{ site.path }}/assets/cat.jpg)
 
-![ollie movie]({{ site.path }}/assets/cat.mkv)
+<video width="100%">
+    <source src="/assets/cat.mkv" type="video/mkv">
+</video>
