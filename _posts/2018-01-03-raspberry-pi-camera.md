@@ -11,7 +11,7 @@ Markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheat
 deploy jekyll preview: jekyll serve --detach --port $PORT --host $IP
 --->
 
-<!--- Post text follows --->
+<!--- Post text follows ---> 
 
 Today I'm going to (finally) get the camera on my Raspberry Pi functioning. One of our cats happens to be a Large Adult Son yet goes on some very loud sprint exercises a few times a day. We'd like to catch him in the act.
 
