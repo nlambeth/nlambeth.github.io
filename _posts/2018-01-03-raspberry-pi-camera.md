@@ -7,6 +7,10 @@ title: "Raspberry Pi - Camera and Motion"
 Markdown cheatsheet: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 --->
 
+<!---
+deploy jekyll preview: jekyll serve --detach --port $PORT --host $IP
+--->
+
 <!--- Post text follows --->
 
 Today I'm going to (finally) get the camera on my Raspberry Pi functioning. One of our cats happens to be a Large Adult Son yet goes on some very loud sprint exercises a few times a day. We'd like to catch him in the act.
@@ -23,12 +27,10 @@ I've had this Pi sitting around for awhile; a few weeks ago I wiped the SD card 
 1. Forget your login information for the Pi. Spend awhile trying to guess it, then pull the SD card and start searching the house for a microSD adapter. Realize you wrote yourself a note when you set up Stretch in November (thanks Evernote). Successfully ssh into the Pi.
 2. Set up a static IP address:
     * Set via ifconfig: 
+    
+    `pi@raspberrypi:~ $ ifconfig wlan0 10.0.1.101 netmask 255.255.255.0 up`
 
-{% highlight shell %}
-pi@raspberrypi:~ $ ifconfig wlan0 10.0.1.101 netmask 255.255.255.0 up 
-{% endhighlight %}
-
-3. Do apt-get update, apt-get upgrade because who knows who long it's been.
+3. Reconnect to the pi. Do apt-get update, apt-get upgrade because who knows who long it's been.
     * Many downloads failed due to "101: Network is unreachable" errors to several mirrors. Let's cross our fingers.
 
 #### 2. Set up Motion
