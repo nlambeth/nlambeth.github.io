@@ -49,3 +49,11 @@ pi@raspberrypi:~ $ cat /var/run/motion/motion.pid
 2208
 pi@raspberrypi:~ $ sudo kill -9 2208
 {% endhighlight %}
+
+#### 3. Catch some cat video
+
+~/.motion/motion.conf allows for configuration of motion detection options; with
+the current setup, a change of 2500 pixels (50x50) will trigger a preview snapshot
+and a .mkv movie generated in /tmp/motion.
+
+I'm currently retrieving these manually via scp.
