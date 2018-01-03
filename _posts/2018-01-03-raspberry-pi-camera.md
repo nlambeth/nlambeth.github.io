@@ -26,7 +26,8 @@ I've had this Pi sitting around for awhile; a few weeks ago I wiped the SD card 
 {% highlight shell %}
 pi@raspberrypi:~ $ ifconfig wlan0 10.0.1.101 netmask 255.255.255.0 up 
 {% endhighlight %}
-    
+
+
     * Reconnect to Pi.
 3. Do apt-get update, apt-get upgrade because who knows who long it's been.
     * Many downloads failed due to "101: Network is unreachable" errors to several mirrors. Let's cross our fingers.
