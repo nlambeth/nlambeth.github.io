@@ -57,3 +57,5 @@ the current setup, a change of 2500 pixels (50x50) will trigger a preview snapsh
 and a .mkv movie generated in /tmp/motion.
 
 I'm currently retrieving these manually via scp.
+
+![ollie]({{ site.path }}/assets/cat.jpg)
