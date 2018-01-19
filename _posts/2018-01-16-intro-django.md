@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Getting started with Django"
+title: "Getting started with Django - Part 1"
 ---
 
 <!---
@@ -26,4 +26,3 @@ is weird and scary)).
   - pip install Django
 4. Success. Create a project:
   - django-admin startproject mysite
-  - 
